@@ -1,0 +1,29 @@
+* {
+    font-family: "Alegreya Sans";
+    margin: 0;
+    padding: 0;
+}
+
+.bk-img{
+    background-image: url('home.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:right ;
+   align-items: end;
+    margin-right: 20px;
+    gap: 10px; 
+}
+
+.container li{
+    list-style: none;
+}
+
